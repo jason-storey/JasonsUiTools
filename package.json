@@ -1,0 +1,29 @@
+{
+  "name": "com.jasonstorey.com.jasonstoery.jasonsuitools",
+  "version": "1.2.3",
+  "displayName": "JasonsUiTools",
+  "description": "JasonsUiTools",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/jason-storey/JasonsUiTools#readme",
+  "changelogUrl": "CHANGELOG.md",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "JasonStorey",
+    "email": "jasonstoreyireland@gmail.com",
+    "url": "https://github.com/jason-storey"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Example",
+      "description": "Shows an example Ui Architecture",
+      "path": "Samples~/SampleBasic"
+    }
+  ],
+  "hideInEditor": false
+}

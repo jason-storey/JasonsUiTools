@@ -20,9 +20,14 @@
   },
   "samples": [
     {
-      "displayName": "Basic Example",
+      "displayName": "Ui Panel Example",
       "description": "Shows an example Ui Architecture",
-      "path": "Samples~/SampleBasic"
+      "path": "Samples/SampleBasic"
+    },
+    {
+      "displayName": "Validation Example",
+      "description": "Shows how to validate required fields",
+      "path": "Samples/Validation"
     }
   ],
   "hideInEditor": false

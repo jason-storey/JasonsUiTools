@@ -6,4 +6,9 @@ namespace JasonStorey.UiTools
     {
         
     }
+
+    public class BaseEditor<T> : BaseEditor
+    {
+        
+    }
 }

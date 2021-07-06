@@ -9,9 +9,13 @@ namespace JasonStorey.UiTools
 {
     public static class UiExtensions
     {
-        public static T GetOrCreate<T>(this MonoBehaviour behaviour) where T : Component =>
-            behaviour.GetComponent<T>() ?? behaviour.gameObject.AddComponent<T>();
-        
+        public static T GetOrCreate<T>(this MonoBehaviour behaviour) where T : Component
+        {
+            var existing = behaviour.GetComponent<T>();
+            if (existing != null) return existing;
+            return behaviour.gameObject.AddComponent<T>();
+        }
+
         public static void Add(this Button btn, UnityAction action) => btn.onClick.AddListener(action);
         public static void Remove(this Button btn, UnityAction action) => btn.onClick.RemoveListener(action);
 
